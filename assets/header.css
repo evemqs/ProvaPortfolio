@@ -1,0 +1,21 @@
+header #cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .links {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    gap: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header .nome {
+    font-size: 1.4rem;
+    margin: 0;
+}
